@@ -2,7 +2,7 @@ from analyzer import count_words, count_characters, count_vowels, reverse_text
 
 
 def test_count_words():
-    assert count_words("hello world") == 3
+    assert count_words("hello world") == 2
 
 
 def test_count_characters():
